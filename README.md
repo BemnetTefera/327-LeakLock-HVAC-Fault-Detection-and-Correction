@@ -41,9 +41,8 @@
 
 ---
 
-## 🚀 Getting Started
 
-### Requirements
+### 🚀 Getting Started
 
 - ESP32 Dev Module
 - TMP102 Temperature Sensor(s)
