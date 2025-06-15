@@ -77,7 +77,7 @@ LeakLock's accessibility has wide-reaching implications for energy conservation,
 - Web UI supports 3D HVAC model and manual control
 
 ### Block Diagram
-> *(Insert diagram: block_diagram.png)*
+![Image](https://github.com/user-attachments/assets/8d601c7c-429d-486c-8990-9ed6ffc6113d)
 
 ### Firmware and Code
 - Structured around FreeRTOS for modular tasking
@@ -87,18 +87,33 @@ LeakLock's accessibility has wide-reaching implications for energy conservation,
 ### 3D Printing
 LeakLock uses a T-shaped 3D printed duct system sealed with aluminum tape to simulate real HVAC airflow. It allows testing of backpressure effects and zone control but lacks full thermal or turbulent fidelity.
 
+![Image](https://github.com/user-attachments/assets/49d6f4e9-699b-4e9c-b526-0c41137874fb)
+![Image](https://github.com/user-attachments/assets/19b376f7-93a4-4871-bcae-17a0830e21de)
+
 ### PCB Design
 Two iterations were produced:
 1. Breakout + breadboard with separate ESP32 (60x70mm)
 2. Final compact board (45x50mm) with integrated microcontroller, motor driver, MUX, and indicator LEDs
+
+### Final Iteration of Manufatured PCB
+![Image](https://github.com/user-attachments/assets/2e24cd1a-8150-4e61-aeb8-c26efa2a5f85)
+![Image](https://github.com/user-attachments/assets/11edabca-1ef5-4883-b72a-8ac3472665c9)
 
 ## Final Product
 
 ### Initial Goal vs Final Product
 - Retained core goal of <$50 cost per module (actual: $16.35)
 - UI moved from 3D model to reliable data display
-- RTOS replaced loop-based firmware for better parallelism
 - Dampers functional but not mechanically integrated due to fit challenges
+- RTOS replaced loop-based firmware for better parallelism
+
+### Initial Loop based Architecture
+![Image](https://github.com/user-attachments/assets/73f0adae-3210-4f5b-9a54-04eee4b897db)
+
+### Improved Real Time Operating System Flow
+![Image](https://github.com/user-attachments/assets/c04aa4e6-ceda-40ce-90e6-808cd8c69b99)
+
+
 
 ## Performance and Limitations
 
