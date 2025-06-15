@@ -3,7 +3,7 @@
 **LeakLock** is a low-cost, real-time HVAC monitoring solution that detects air duct leaks and corrects airflow across a three-zone system. Built with an ESP32, distributed sensors, and a web interface, it combines embedded systems, IoT, and sustainable design principles to solve a real-world energy efficiency problem.
 
 ---
-![Image](https://github.com/user-attachments/assets/7bac3121-fc6c-4088-bebc-9764c4e9dd74) ![Image](https://github.com/user-attachments/assets/8b9c9798-6089-4ae1-bb15-26230e20129b)
+![Image](https://github.com/user-attachments/assets/7bac3121-fc6c-4088-bebc-9764c4e9dd74)
 ## 🔧 Features
 
 - 📶 Wi-Fi-enabled ESP32 microcontroller
