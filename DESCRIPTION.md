@@ -94,10 +94,13 @@ LeakLock uses a T-shaped 3D printed duct system sealed with aluminum tape to sim
 Two iterations were produced:
 1. Breakout + breadboard with separate ESP32 (60x70mm)
 2. Final compact board (45x50mm) with integrated microcontroller, motor driver, MUX, and indicator LEDs
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Final Iteration of Manufatured PCB
-![Image](https://github.com/user-attachments/assets/2e24cd1a-8150-4e61-aeb8-c26efa2a5f85)
-![Image](https://github.com/user-attachments/assets/11edabca-1ef5-4883-b72a-8ac3472665c9)
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/11edabca-1ef5-4883-b72a-8ac3472665c9" alt="3D Printed Duct 2" style="width: 48%;">
+   <img src="https://github.com/user-attachments/assets/2e24cd1a-8150-4e61-aeb8-c26efa2a5f85" alt="3D Printed Duct 1" style="width: 48%;">
+</div>
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Final Product
 
@@ -113,7 +116,8 @@ Two iterations were produced:
 ### Improved Real Time Operating System Flow
 ![Image](https://github.com/user-attachments/assets/c04aa4e6-ceda-40ce-90e6-808cd8c69b99)
 
-
+### Final User interface
+![Image](https://github.com/user-attachments/assets/15ae60fc-583c-407e-96d0-0db2c825dd21)
 
 ## Performance and Limitations
 
