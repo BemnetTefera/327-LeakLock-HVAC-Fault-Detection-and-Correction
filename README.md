@@ -4,6 +4,10 @@
 
 ---
 ![Image](https://github.com/user-attachments/assets/7bac3121-fc6c-4088-bebc-9764c4e9dd74)
+
+# 📄 [Full Design Description](description.md)
+
+
 ## 🔧 Features
 
 - 📶 Wi-Fi-enabled ESP32 microcontroller
